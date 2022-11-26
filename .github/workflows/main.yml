@@ -14,7 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      -name: "Login to Dokcer hub"
-        run: docker login --username ahmedmandouh --password dckr_pat_exFZyotrjLC19TEawqUiJv1g-yI
+      - name: "Login to Dokcer hub"
+        run: docker login --username ahmedmandouh --password dckr_pat_BD7U4-7g2bwMAFwv1MqeMN9HGXQ
+
 
 
